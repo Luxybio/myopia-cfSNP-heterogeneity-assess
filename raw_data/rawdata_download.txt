@@ -1,0 +1,21 @@
+1.Myopia-associated SNPs and flanking sequences 
+Myopia-associated single-nucleotide polymorphisms (SNPs) were collected from the Database of Genotypes and Phenotypes (dbGaP), the NHGRI-EBI GWAS Catalog, and previously published literature.
+The corresponding SNP flanking sequences were retrieved from dbSNP based on the GRCh38 reference genome. 
+
+2.Raw Data Acquisition
+The regulatory feature annotation file was downloaded from Ensembl:
+Source: Ensembl Regulatory Build
+Reference genome: GRCh38
+File name: homo_sapiens.GRCh38.Regulatory_Build.regulatory_features.20190329.gff
+This GFF file provides genomic coordinates and annotations of regulatory features, which were used to identify and map SNPs to Genomic regulatory elements (GREs) at transcriptional level.
+
+3. RNA Transcript and Precursor RNA Annotation
+Transcript annotation was obtained from Ensembl (release 102) based on the GRCh38 reference genome.
+Source: Ensembl
+Reference genome: GRCh38
+Release: 102
+File name: Homo_sapiens.GRCh38.102.gtf
+The GTF file provides genomic coordinates and annotations of genes, transcripts, exons, coding sequences (CDSs） at the post-transcriptional level.
+
+4. 5′UTR and 3′UTR Sequences
+5′UTR and 3′UTR annotations were retrieved from Ensembl BioMart using the GRCh38 reference genome and Ensembl release 102.
